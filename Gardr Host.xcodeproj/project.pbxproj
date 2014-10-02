@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		763B9BF519DD444900FA615C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B9BF419DD444900FA615C /* main.m */; };
+		763B9BF819DD444900FA615C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B9BF719DD444900FA615C /* AppDelegate.m */; };
+		763B9BFB19DD444900FA615C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B9BFA19DD444900FA615C /* ViewController.m */; };
+		763B9BFE19DD444900FA615C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 763B9BFC19DD444900FA615C /* Main.storyboard */; };
+		763B9C0019DD444900FA615C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 763B9BFF19DD444900FA615C /* Images.xcassets */; };
+		763B9C0319DD444900FA615C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 763B9C0119DD444900FA615C /* LaunchScreen.xib */; };
+		763B9C0F19DD444900FA615C /* Gardr_HostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 763B9C0E19DD444900FA615C /* Gardr_HostTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		763B9C0919DD444900FA615C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 763B9BE719DD444900FA615C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 763B9BEE19DD444900FA615C;
+			remoteInfo = "Gardr Host";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		763B9BEF19DD444900FA615C /* Gardr Host.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gardr Host.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763B9BF319DD444900FA615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763B9BF419DD444900FA615C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		763B9BF619DD444900FA615C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		763B9BF719DD444900FA615C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		763B9BF919DD444900FA615C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		763B9BFA19DD444900FA615C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		763B9BFD19DD444900FA615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		763B9BFF19DD444900FA615C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		763B9C0219DD444900FA615C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		763B9C0819DD444900FA615C /* Gardr HostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gardr HostTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		763B9C0D19DD444900FA615C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		763B9C0E19DD444900FA615C /* Gardr_HostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gardr_HostTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		763B9BEC19DD444900FA615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763B9C0519DD444900FA615C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		763B9BE619DD444900FA615C = {
+			isa = PBXGroup;
+			children = (
+				763B9BF119DD444900FA615C /* Gardr Host */,
+				763B9C0B19DD444900FA615C /* Gardr HostTests */,
+				763B9BF019DD444900FA615C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		763B9BF019DD444900FA615C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				763B9BEF19DD444900FA615C /* Gardr Host.app */,
+				763B9C0819DD444900FA615C /* Gardr HostTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		763B9BF119DD444900FA615C /* Gardr Host */ = {
+			isa = PBXGroup;
+			children = (
+				763B9BF619DD444900FA615C /* AppDelegate.h */,
+				763B9BF719DD444900FA615C /* AppDelegate.m */,
+				763B9BF919DD444900FA615C /* ViewController.h */,
+				763B9BFA19DD444900FA615C /* ViewController.m */,
+				763B9BFC19DD444900FA615C /* Main.storyboard */,
+				763B9BFF19DD444900FA615C /* Images.xcassets */,
+				763B9C0119DD444900FA615C /* LaunchScreen.xib */,
+				763B9BF219DD444900FA615C /* Supporting Files */,
+			);
+			path = "Gardr Host";
+			sourceTree = "<group>";
+		};
+		763B9BF219DD444900FA615C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				763B9BF319DD444900FA615C /* Info.plist */,
+				763B9BF419DD444900FA615C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		763B9C0B19DD444900FA615C /* Gardr HostTests */ = {
+			isa = PBXGroup;
+			children = (
+				763B9C0E19DD444900FA615C /* Gardr_HostTests.m */,
+				763B9C0C19DD444900FA615C /* Supporting Files */,
+			);
+			path = "Gardr HostTests";
+			sourceTree = "<group>";
+		};
+		763B9C0C19DD444900FA615C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				763B9C0D19DD444900FA615C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		763B9BEE19DD444900FA615C /* Gardr Host */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763B9C1219DD444900FA615C /* Build configuration list for PBXNativeTarget "Gardr Host" */;
+			buildPhases = (
+				763B9BEB19DD444900FA615C /* Sources */,
+				763B9BEC19DD444900FA615C /* Frameworks */,
+				763B9BED19DD444900FA615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gardr Host";
+			productName = "Gardr Host";
+			productReference = 763B9BEF19DD444900FA615C /* Gardr Host.app */;
+			productType = "com.apple.product-type.application";
+		};
+		763B9C0719DD444900FA615C /* Gardr HostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 763B9C1519DD444900FA615C /* Build configuration list for PBXNativeTarget "Gardr HostTests" */;
+			buildPhases = (
+				763B9C0419DD444900FA615C /* Sources */,
+				763B9C0519DD444900FA615C /* Frameworks */,
+				763B9C0619DD444900FA615C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				763B9C0A19DD444900FA615C /* PBXTargetDependency */,
+			);
+			name = "Gardr HostTests";
+			productName = "Gardr HostTests";
+			productReference = 763B9C0819DD444900FA615C /* Gardr HostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		763B9BE719DD444900FA615C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "FINN.no AS";
+				TargetAttributes = {
+					763B9BEE19DD444900FA615C = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					763B9C0719DD444900FA615C = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 763B9BEE19DD444900FA615C;
+					};
+				};
+			};
+			buildConfigurationList = 763B9BEA19DD444900FA615C /* Build configuration list for PBXProject "Gardr Host" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 763B9BE619DD444900FA615C;
+			productRefGroup = 763B9BF019DD444900FA615C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				763B9BEE19DD444900FA615C /* Gardr Host */,
+				763B9C0719DD444900FA615C /* Gardr HostTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		763B9BED19DD444900FA615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763B9BFE19DD444900FA615C /* Main.storyboard in Resources */,
+				763B9C0319DD444900FA615C /* LaunchScreen.xib in Resources */,
+				763B9C0019DD444900FA615C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763B9C0619DD444900FA615C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		763B9BEB19DD444900FA615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763B9BFB19DD444900FA615C /* ViewController.m in Sources */,
+				763B9BF819DD444900FA615C /* AppDelegate.m in Sources */,
+				763B9BF519DD444900FA615C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		763B9C0419DD444900FA615C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				763B9C0F19DD444900FA615C /* Gardr_HostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		763B9C0A19DD444900FA615C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 763B9BEE19DD444900FA615C /* Gardr Host */;
+			targetProxy = 763B9C0919DD444900FA615C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		763B9BFC19DD444900FA615C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763B9BFD19DD444900FA615C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		763B9C0119DD444900FA615C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				763B9C0219DD444900FA615C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		763B9C1019DD444900FA615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		763B9C1119DD444900FA615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		763B9C1319DD444900FA615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gardr Host/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		763B9C1419DD444900FA615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Gardr Host/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		763B9C1619DD444900FA615C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gardr HostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardr Host.app/Gardr Host";
+			};
+			name = Debug;
+		};
+		763B9C1719DD444900FA615C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Gardr HostTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gardr Host.app/Gardr Host";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		763B9BEA19DD444900FA615C /* Build configuration list for PBXProject "Gardr Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763B9C1019DD444900FA615C /* Debug */,
+				763B9C1119DD444900FA615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		763B9C1219DD444900FA615C /* Build configuration list for PBXNativeTarget "Gardr Host" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763B9C1319DD444900FA615C /* Debug */,
+				763B9C1419DD444900FA615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		763B9C1519DD444900FA615C /* Build configuration list for PBXNativeTarget "Gardr HostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				763B9C1619DD444900FA615C /* Debug */,
+				763B9C1719DD444900FA615C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 763B9BE719DD444900FA615C /* Project object */;
+}

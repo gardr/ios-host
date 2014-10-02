@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iz1-J4-syp">
+                                <rect key="frame" x="20" y="20" width="510" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6Me-LX-HuP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7H0-Ok-Gp0">
+                                <rect key="frame" x="538" y="20" width="35" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="384-V5-CfQ"/>
+                                    <constraint firstAttribute="width" constant="35" id="LAx-Sp-pTu"/>
+                                </constraints>
+                                <state key="normal" title="Load">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loadTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="qdj-Gd-Izw"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SJZ-4B-HX9">
+                                <rect key="frame" x="140" y="58" width="320" height="225"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="225" id="dti-JU-Kat"/>
+                                    <constraint firstAttribute="width" constant="320" id="qLf-DD-i9t"/>
+                                </constraints>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="SJZ-4B-HX9" secondAttribute="centerX" id="GBA-wN-6BP"/>
+                            <constraint firstItem="7H0-Ok-Gp0" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="TJZ-wS-63W"/>
+                            <constraint firstItem="Iz1-J4-syp" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" symbolic="YES" id="hv4-hO-Wv1"/>
+                            <constraint firstItem="7H0-Ok-Gp0" firstAttribute="leading" secondItem="Iz1-J4-syp" secondAttribute="trailing" constant="8" symbolic="YES" id="i6w-cH-AQX"/>
+                            <constraint firstItem="Iz1-J4-syp" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="u6Z-g3-TJK"/>
+                            <constraint firstItem="SJZ-4B-HX9" firstAttribute="top" secondItem="Iz1-J4-syp" secondAttribute="bottom" constant="8" id="uev-0W-3xg"/>
+                            <constraint firstAttribute="trailing" secondItem="7H0-Ok-Gp0" secondAttribute="trailing" constant="27" id="vNb-TU-FcF"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="addressTextField" destination="Iz1-J4-syp" id="scf-g3-exZ"/>
+                        <outlet property="webView" destination="SJZ-4B-HX9" id="g0k-3b-tRP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
